@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #fff;
+    color: #000; }
+
+h2, h3, h4, h5, p, b, span {
+    font-family: "Roboto", sans-serif; 
+}
+
+h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 38px;
+    margin-bottom: 50px;
+    color:rgb(56, 78, 18);
+}
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items:center
+}
+
+.card-container {
+    background-color: #fff;
+    border-radius: 25px;
+    padding: 25px;
+    max-width: 450px;
+}
+
+form {
+    display: grid;
+}
+
+input {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 12px;
+    background-color: rgb(56, 78, 18);
+    color: #fff;
+}
+
+.section-container-one {
+    font-family: "Roboto", sans-serif;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-container-two {
+    font-family: "Roboto", sans-serif;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+.section-container-two p {
+    font-family: "Roboto", sans-serif;
+    color:rgb(37, 53, 9);
+    font-size: 32px;
+    margin-bottom: 50px;
+    
+}
+
+.footer-container {
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.img-footer-right {
+    width: 250px;
+    height: auto;
+    position: absolute;
+    right: 15px;
+    margin-top: 23px;
+    transition: 0.3s;
+}
+
+.img-footer-right:hover{
+    transform: scale(1.1);
+}
+
+.img-right {
+    width: 250px;
+    height: auto;
+    position: absolute;
+    right: 15px;
+    bottom: 0px;
+    transition: 0.3s;
+}
+
+.img-right:hover{
+    transform: scale(1.1);
+}
+
+
+.background-section-one {
+    background-image: url(../assets/bg2-lp.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.background-section-two {
+    background-image: url(../assets/bg1-lp.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
