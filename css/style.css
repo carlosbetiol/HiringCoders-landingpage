@@ -10,7 +10,7 @@ html {
 }
 
 body {
-    background: #fff;
+    background: #d7dbda;
     color: #000; }
 
 h2, h3, h4, h5, p, b, span {
@@ -34,7 +34,7 @@ h1 {
 }
 
 .card-container {
-    background-color: #fff;
+    background-color: rgb(56, 78, 18);
     border-radius: 25px;
     padding: 25px;
     max-width: 450px;
@@ -45,13 +45,14 @@ form {
 }
 
 input {
+    font-family: "Roboto", sans-serif;
     width: 100%;
     height: 30px;
     margin-bottom: 10px;
     text-align: center;
     border-radius: 12px;
-    background-color: rgb(56, 78, 18);
-    color: #fff;
+    background-color: rgb(128, 197, 135);
+    color: #000;
 }
 
 .section-container-one {
@@ -72,12 +73,23 @@ input {
     align-items: center ;
 }
 
-.section-container-two p {
+.section-container-two-p {
     font-family: "Roboto", sans-serif;
     color:rgb(37, 53, 9);
     font-size: 32px;
     margin-bottom: 50px;
-    
+}
+
+.content p {
+    font-family: "Roboto", sans-serif;
+    background-color: rgb(56, 78, 18);
+    color:rgb(128, 197, 135);
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.content span {
+    font-size: 24px;
 }
 
 .footer-container {
@@ -103,7 +115,7 @@ input {
 }
 
 .img-right {
-    width: 250px;
+    max-width: 250px;
     height: auto;
     position: absolute;
     right: 15px;
@@ -138,3 +150,48 @@ input {
     align-items: center; 
 }
 
+@media (max-width: 700px) {
+    /* .img-right {
+        max-width: 60%;
+    } */
+
+    .img-footer-right {
+        display: none;
+    }
+
+    .section-container-two-p {
+        font-size: 20px;
+        margin-bottom: 50px;
+    }
+
+    h1 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media (max-width: 380px) {
+    /* .img-right {
+        max-width: 60%;
+    } */
+
+    .img-footer-right {
+        display: none;
+    }
+
+    .section-container-two-p {
+        font-size: 20px;
+        margin-bottom: 50px;
+        margin-top:40px;
+    }
+
+    .footer-container {
+        margin-top: 50px;
+        width: 100%;
+        display: grid;
+
+    
+    }
+
+}
